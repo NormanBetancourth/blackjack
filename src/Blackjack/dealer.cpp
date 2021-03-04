@@ -12,7 +12,7 @@ Dealer::~Dealer() {
 }
 
 Carta* Dealer::pedirCarta(Mazo* cartasDisponibles) {
-	float puntosMano = 0;
+	double puntosMano = 0;
 	Carta* nuevaCarta = cartasDisponibles->tomarCarta();
 
 	manoJugador.agregarCarta(nuevaCarta);
