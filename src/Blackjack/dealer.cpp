@@ -1,5 +1,5 @@
 // Dealer.cpp
-// Implementación de la clase Dealer
+// ImplementaciÃ³n de la clase Dealer
 
 #include "dealer.h"
 
@@ -12,7 +12,7 @@ Dealer::~Dealer() {
 }
 
 Carta* Dealer::pedirCarta(Mazo* cartasDisponibles) {
-	int puntosMano = 0;
+	float puntosMano = 0;
 	Carta* nuevaCarta = cartasDisponibles->tomarCarta();
 
 	manoJugador.agregarCarta(nuevaCarta);
